@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-title>
+    {{ todo.title }}
+    <span class="material-icons close-icon" (click)="closeDetails()">close</span>
+  </mat-card-title>
+  <mat-card-content>
+    <p>{{ todo.description }}</p>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-button class="save-button">Save</button>
+    <button mat-button class="cancel-button">Cancel</button>
+  </mat-card-actions>
+</mat-card>

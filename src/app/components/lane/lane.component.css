@@ -1,0 +1,51 @@
+.lane-container {
+  padding: 15px;
+  margin: 10px;
+  min-width: 350px; /* Ensure a minimum width */
+  flex-basis: 300px; /* Initial size within the flex container */
+  box-sizing: border-box;
+  border-radius: 10px;
+  max-width: 350px; /* Optional: Limit max width */
+  margin-right: 8px; /* Add margin to the right for spacing between lanes */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.lane-title {
+ font-weight: 500;
+ font-size: 1.1em;
+ border-bottom: none;
+ padding-bottom: 5px;
+ margin-bottom: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.lane-today {
+ background-color: #ffeeba; /* Yellow */
+ border-radius: 10px;
+}
+
+.lane-this-week {
+ background-color: #d4edda; /* Light green */
+ border-radius: 10px;
+}
+
+.lane-later {
+ background-color: #e9ecef; /* Light blue/grey */
+ border-radius: 10px;
+}
+
+.add-card-button {
+ background: none;
+  border: none;
+  text-align: left;
+  padding: 8px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+ color: #5e6c84;
+}

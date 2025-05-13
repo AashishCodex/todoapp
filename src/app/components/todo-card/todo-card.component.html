@@ -1,0 +1,26 @@
+<div class="card">
+  <div class="card-content">
+ <div class="card-header">
+ <!-- <span class="material-icons" (click)="onCheckboxClick()">{{ todo.completed ? 'check_box' : 'check_box_outline_blank' }}</span> -->
+ <mat-checkbox (change)="onCheckboxChange()" [checked]="todo.completed"></mat-checkbox>
+      <div class="text-container">
+        <h3 class="todo-title">{{ todo.title }}</h3>
+      </div>
+    <div class="card-icons">
+      <!-- Placeholder for right-side icons -->
+      <span class="material-icons">edit</span>
+      <span class="material-icons">archive</span>
+    </div>
+
+
+  </div>
+ <div class="card-body">
+      <div class="template-info">
+        <span class="material-icons">insert_comment</span>
+        <p class="todo-description">{{ todo.description }}</p>
+      </div>
+      <span class="material-icons" (click)="openDescriptionDialog()">view_headline</span>
+
+  </div>
+  </div>
+

@@ -1,0 +1,92 @@
+/* Basic styling for the todo-details component */
+:host {
+  display: block;
+}
+
+/* Styles for the mat-card to look like the dialog container */
+mat-card {
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 0; /* Remove default card padding */
+}
+
+/* Style the mat-card-title */
+mat-card-title {
+  padding: 16px 24px; /* Padding for the title */
+  font-size: 20px; /* Font size for title */
+  font-weight: 500; /* Font weight */
+  color: #333; /* Dark gray color */
+  border-bottom: 1px solid #eee; /* Subtle bottom border */
+  display: flex; /* Use flexbox to align title and close icon */
+  justify-content: space-between; /* Space out title and close icon */
+  align-items: center; /* Vertically align items */
+}
+
+/* Style for the close icon container */
+.close-icon {
+  cursor: pointer; /* Indicate clickable */
+  color: #888; /* Gray color for the icon */
+  font-size: 20px; /* Size of the icon */
+}
+
+.close-icon:hover {
+  color: #555; /* Darker gray on hover */
+}
+
+/* Style the mat-card-content */
+mat-card-content {
+  padding: 24px; /* Padding for the content area */
+  font-size: 15px; /* Font size for content text */
+  line-height: 1.6; /* Line height for readability */
+  color: #555; /* Medium gray color for text */
+}
+
+/* Style the paragraph within content */
+mat-card-content p {
+  margin: 0; /* Remove default paragraph margin */
+}
+
+/* Style the mat-card-actions for button layout */
+mat-card-actions {
+  padding: 16px 24px; /* Padding for the actions area */
+  display: flex; /* Use flexbox for button layout */
+  gap: 10px; /* Space between buttons */
+  justify-content: flex-end; /* Align buttons to the right */
+  border-top: 1px solid #eee; /* Subtle top border */
+}
+
+/* Styling for the "Save" button */
+button[mat-button].save-button {
+  background-color: #ff9800; /* Orange background */
+  color: white; /* White text */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button[mat-button].save-button:hover {
+  background-color: #f57c00; /* Darker orange on hover */
+}
+
+/* Styling for the "Cancel" button */
+button[mat-button].cancel-button {
+  background-color: #eee; /* Light gray background */
+  color: #333; /* Dark gray text */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button[mat-button].cancel-button:hover {
+  background-color: #ccc; /* Slightly darker gray on hover */
+}
+
+/* Remove default Material button styles that might interfere */
+button[mat-button] {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  text-transform: none;
+}

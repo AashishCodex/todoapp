@@ -1,0 +1,15 @@
+<div class="board-container">
+ <!-- <button class="create-todo-button" (click)="openCreateTodoModal()">Create New Todo</button> -->
+ <!-- <app-create-todo-modal *ngIf="showCreateTodoModal" (close)="closeCreateTodoModal()"></app-create-todo-modal> -->
+ <div class="board">
+    <app-lane
+      cdkDropList
+      cdkDrag
+      *ngFor="let lane of lanes"
+      [allLaneDropListIds]="allLaneDropListIds"
+      [class]="'lane-' + (lane | lowercase)"
+      [laneName]="lane"
+      [todos]="getTodosByLane(lane)"
+    ></app-lane>
+  </div>
+</div>

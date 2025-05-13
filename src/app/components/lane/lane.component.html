@@ -1,0 +1,11 @@
+<div class="lane-container" [ngClass]="{'lane-today': laneName === 'Pending', 'lane-this-week': laneName === 'In Progress', 'lane-later': laneName === 'Completed'}" >
+  <h2 class="lane-title">{{ laneName }}</h2>
+  <div class="todo-list" cdkDropList [id]="laneName" [cdkDropListConnectedTo]="allLaneDropListIds" [cdkDropListData]="todos" (cdkDropListDropped)="drop($event)">
+ <div *ngFor="let todo of todos" cdkDrag>
+    <app-todo-card [todo]="todo" (todoUpdated)="updateTodo($event)"></app-todo-card>
+  </div>
+ </div>
+ <button class="add-card-button" (click)="openCreateTodoModal()">
+    <span class="material-icons" >add</span> Add a card
+  </button>
+</div>

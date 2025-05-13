@@ -1,0 +1,108 @@
+.card {
+  font-family: 'Poppins', sans-serif;
+  padding: 12px; /* Increased padding */
+  margin: 8px;
+  max-width: 100%; /* Ensure the card is no wider than its container */
+  border: 1px solid #dcdfe6; /* Lighter border color */
+  background-color: white;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border-radius: 3px; /* Adjusted border radius */
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25); /* Adjusted box-shadow */
+}
+
+.card:hover {
+ border: 1px solid #ccc;
+ cursor: pointer; /* Indicate that the card is interactive */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  position: relative; /* Needed for absolute positioning of icons */
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Or flex-start if you don't want space between */
+  margin-top: 8px;
+  gap: 8px; /* Added gap for spacing between children */
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Push checkbox to the left and potential header icons to the right */
+ margin-bottom: 4px; /* Space between header and body */
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end; /* Align footer items to the right */
+}
+
+.card-content .material-icons {
+  vertical-align: middle; /* Vertically align the icon */
+  font-size: 18px; /* Default icon size */
+  color: #6b778c; /* Default icon color */
+  cursor: pointer;
+}
+
+.card-header .text-container {
+  flex-grow: 1; /* Allow text container to take up available space */
+  margin-left: 8px; /* Space between checkbox and text */
+  margin-right: 8px; /* Space between text and icons */
+}
+
+.card-header .text-container h3,
+.card-header .text-container p {
+  margin: 0; /* Remove default margins */
+}
+.card-content .material-icons.checked {
+  color: #61bd4f !important; /* Green color for completed state */
+}
+.card-text-content p {
+  font-size: 10px; /* Smaller font size for description */
+  color: #5e6c84; /* Muted color for description */
+  margin-bottom: 0;
+}
+.card-header .text-container h3 {
+  font-size: 12px; /* Larger font size for title */
+  font-weight: 500; /* Bolder font weight for title */
+ color: #172b4d; /* Darker color for title */
+}
+.add-card-section {
+  display: flex;
+  align-items: center;
+}
+
+.add-card-section .plus-icon {
+  margin-right: 5px; /* Space between plus icon and text */
+}
+
+.add-card-section .material-icons {
+  font-size: 18px; /* Adjust icon size */
+  vertical-align: middle; /* Vertically align the icon */
+}
+
+.template-info {
+ display: flex; /* Arrange icon and text horizontally */
+  align-items: center; /* Vertically center icon and text */
+  background-color: #f4f5f7; /* Light gray background */
+  color: #444; /* Dark gray text */
+  padding: 4px 8px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 11px; /* Smaller font size */
+  gap: 4px; /* Space between elements */
+}
+
+.template-info p {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Display ellipsis for truncated text */
+  max-width: 150px; /* Adjust max-width as needed to control truncation */
+}
+
+.todo-description {
+  margin : 0px !important;
+}

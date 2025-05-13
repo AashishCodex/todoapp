@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "userId": 101,
+    "title": "Buy groceries",
+    "description": "Milk, eggs, bread, and cheese",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "userId": 102,
+    "title": "Walk the dog",
+    "description": "Take Max for a walk in the park",
+    "status": "Completed"
+  },
+  {
+    "id": 3,
+    "userId": 101,
+    "title": "Schedule dentist appointment",
+    "description": "Call the dentist's office to book a check-up",
+    "status": "In Progress"
+  },
+  {
+    "id": 4,
+    "userId": 103,
+    "title": "Pay bills",
+    "description": "Electricity, water, and internet bills",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "userId": 102,
+    "title": "Read a book",
+    "description": "Finish reading 'The Lord of the Rings'",
+    "status": "In Progress"
+  },
+  {
+    "id": 6,
+    "userId": 104,
+    "title": "Plan weekend trip",
+    "description": "Look for destinations and accommodations",
+    "status": "Pending"
+  },
+  {
+    "id": 7,
+    "userId": 101,
+    "title": "Write a blog post",
+    "description": "Draft a post about new technologies",
+    "status": "In Progress"
+  },
+  {
+    "id": 8,
+    "userId": 103,
+    "title": "Exercise",
+    "description": "Go for a run or hit the gym",
+    "status": "Completed"
+  },
+  {
+    "id": 9,
+    "userId": 104,
+    "title": "Clean the house",
+    "description": "Vacuum, dust, and mop all rooms",
+    "status": "Pending"
+  },
+  {
+    "id": 10,
+    "userId": 102,
+    "title": "Learn a new recipe",
+    "description": "Try making homemade pizza",
+    "status": "In Progress"
+  },
+  {
+    "id": 11,
+    "userId": 105,
+    "title": "Research new laptop",
+    "description": "Compare models and prices",
+    "status": "Pending"
+  },
+  {
+    "id": 12,
+    "userId": 101,
+    "title": "Prepare presentation slides",
+    "description": "Create slides for next week's meeting",
+    "status": "In Progress"
+  },
+  {
+    "id": 13,
+    "userId": 103,
+    "title": "Attend online course",
+    "description": "Complete the next module of the Python course",
+    "status": "Completed"
+  },
+  {
+    "id": 14,
+    "userId": 105,
+    "title": "Back up computer data",
+    "description": "Perform a full system backup",
+    "status": "Pending"
+  },
+  {
+    "id": 15,
+    "userId": 104,
+    "title": "Volunteer at local shelter",
+    "description": "Spend a few hours helping out",
+    "status": "In Progress"
+  },
+  {
+    "id": 16,
+    "userId": 102,
+    "title": "Call family",
+    "description": "Catch up with parents and siblings",
+    "status": "Completed"
+  },
+  {
+    "id": 17,
+    "userId": 105,
+    "title": "Organize workspace",
+    "description": "Declutter desk and file papers",
+    "status": "Pending"
+  },
+  {
+    "id": 18,
+    "userId": 101,
+    "title": "Fix leaky faucet",
+    "description": "Get tools and fix the kitchen faucet",
+    "status": "In Progress"
+  },
+  {
+    "id": 19,
+    "userId": 103,
+    "title": "Plan social media content",
+    "description": "Schedule posts for the week",
+    "status": "Pending"
+  },
+  {
+    "id": 20,
+    "userId": 104,
+    "title": "Review project proposal",
+    "description": "Read and provide feedback on the proposal",
+    "status": "In Progress"
+  },
+    {
+    "id": 21,
+    "userId": 105,
+    "title": "Water the plants",
+    "description": "Make sure all houseplants are watered",
+    "status": "Completed"
+  },
+  {
+    "id": 22,
+    "userId": 102,
+    "title": "Research vacation spots",
+    "description": "Look for potential travel destinations for the summer",
+    "status": "Pending"
+  }
+]

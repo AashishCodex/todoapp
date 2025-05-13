@@ -1,0 +1,15 @@
+.board-container {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center flex items horizontally */
+  background: linear-gradient(to bottom, #6b4fa2, #a87ec4); /* Purple gradient background */
+}
+.board {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Add space between lanes */
+}
+

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* You might have other global styles here */
+
+html, body {
+  font-family: 'Poppins', sans-serif; /* Applied Poppins globally */
+  height: 100%;
+  margin: 0;
+}
+
+/* Hide overflow for the drag preview to prevent scrollbars */
+.cdk-drag-preview {
+  overflow: hidden !important;
+}
+

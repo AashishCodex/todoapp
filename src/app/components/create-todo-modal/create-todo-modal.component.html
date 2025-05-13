@@ -1,0 +1,24 @@
+<mat-card>
+  <mat-card-title>
+    Create New Todo
+    <span class="material-icons close-icon" (click)="closeModal()">close</span>
+  </mat-card-title>
+  <mat-card-content>
+    <mat-form-field appearance="outline">
+      <mat-label>Title</mat-label>
+      <input matInput placeholder="Title">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+  
+    <mat-form-field appearance="outline">
+      <mat-label>Description</mat-label>
+      <input matInput placeholder="Description">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-button class="save-button">Save</button>
+    <button mat-button class="cancel-button" (click)="closeModal()">Cancel</button>
+  </mat-card-actions>
+</mat-card>
